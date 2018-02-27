@@ -4,11 +4,11 @@ The NIPS 2017 Challenge: [Learning to Run](https://www.crowdai.org/challenges/ni
 
 ## Directories
 
-Most relevant work will be contained in the folder `runner` which contains the script `hypothesis`, which trains the agent.
+`/src` contains models and code for training the simulator
 
 ## Strategy
 
-The current strategy builds on recent work by Open.ai called [Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864). The main concept of this approach employs an idea that is similar to genetic algorithms, but updates weights based on perturbations of parameter values according to a normal distribution. This type of algorithm can be effective in environments that require structured exploration, but may not perform as well in environments where good value function estimates are available. 
+The current strategy builds on recent work by Open.ai called [Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://arxiv.org/abs/1703.03864). The main concept of this approach employs an idea that is similar to genetic algorithms, but updates weights based on perturbations of parameter values according to a normal distribution. This type of algorithm can be effective in environments that require structured exploration, but may not perform as well in environments where good value function estimates are available.
 
 
 Example:
